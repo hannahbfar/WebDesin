@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>GamersPlus
+
+    
+
+</body>
+
+<script>
+    
+    
+    
+    function home(){
+        open ("homepage.html");
+    }
+    
+    function aboutus(){
+        open ("aboutus.html");
+    }
+    
+    function contactus(){
+        open ("ConatctUS.html");
+    }
+    
+    function games(){
+        open ("GamePage.html");
+    }
+    </script>
+    
+    <nav>
+        <a onclick="home()">...Home...    </a>
+        <a onclick="aboutus()">About Us...    </a>
+        <a onclick="contactus()">Contact Us...   </a>
+        <a onclick="games()">Games...  </a>
+        
+    </nav>
+<style>
+body{
+    background-image: url(blueback.png);
+    
+    font-size: large;
+
+}
+
+
+</style>
+<body>Home Page</body>
+
+<div id="ModalLoginForm" class="modal fade">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title">Login</h1>
+            </div>
+            <div class="modal-body">
+                <form role="form" method="POST" action="">
+                    <input type="hidden" name="_token" value="">
+                    <div class="form-group">
+                        <label class="control-label">E-Mail Address</label>
+                        <div>
+                            <input type="email" class="form-control input-lg" name="email" value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Password</label>
+                        <div>
+                            <input type="password" class="form-control input-lg" name="password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="remember"> Remember Me
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div>
+                            <button type="submit" class="btn btn-success">Login</button>
+
+                            <a class="btn btn-link" href="">Forgot Your Password?</a>
+                        </div>
+                    </div>
+                </form>
+                <h1>Or Signup!</h1>
+                <form role="form" method="POST" action="">
+                    <input type="hidden" name="_token" value="">
+                    <div class="form-group">
+                        <label class="control-label">Username</label>
+                        <div>
+                            <input type="text" class="form-control input-lg" name="name" value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">E-Mail Address</label>
+                        <div>
+                            <input type="email" class="form-control input-lg" name="email" value="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Password</label>
+                        <div>
+                            <input type="password" class="form-control input-lg" name="password">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Confirm Password</label>
+                        <div>
+                            <input type="password" class="form-control input-lg" name="password_confirmation">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div>
+                            <button type="submit" class="btn btn-success">
+                                Register
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+  
+    
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="pokergame.png" alt="Poker">
+      </div>
+  
+      <div class="item">
+        <img src="soliatire.png" alt="Soliatire">
+      </div>
+  
+      <div class="item">
+        <img src="slotmachines.jpg" alt="Slot Machine">
+      </div>
+    </div>
+  
+    
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+
+
+
+
+<body>
+ Games:   
+    
+</body>
+<script>
+function img1(){
+    window.open("roulette.jpeg");
+}
+
+function img2(){
+    window.open("slotmachine848910292-170667a.jpg");
+}
+
+function img3(){
+    window.open("Black-Jack.png");
+}
+
+function img4(){
+    window.open("How-to-Beat-Baccarat-with-Card-Counting.jpg");
+}
+
+function img5(){
+    window.open("soliatire.png");
+}
+
+function img6(){
+    window.open("pokergame.png");
+}
+</script>
+
+<nav>
+    <a onclick="img1()"><img src="roulette.jpeg"> Roulette   </a>
+    <a onclick="img2()"><img src="slotmachine848910292-170667a.jpg"> Slot Machine  </a>
+    <a onclick="img3()"><img src="Black-Jack.png"> Black Jack  </a>
+    <a onclick="img4()"><img src="How-to-Beat-Baccarat-with-Card-Counting.jpg"> Baccarat  </a>
+    <a onclick="img5()"><img src="soliatire.png"> Soliatire  </a>
+    <a onclick="img6()"><img src="pokergame.png"> Poker </a>
+   
+</nav>
+
+
+<body>
+    About Us:
+    We began as a modest reseller in 2007 and developed into a sizable, prosperous company with more than 350 full-time workers and a broad range of services for the iGaming industry.
+
+ We create White Label platforms, Self-Service solutions, Turnkey platforms with many features, and Bitcoin casino solutions. Our platform offers a sophisticated reward program, gamification, tournament elements, and limitless customizing choices. Our platform can process millions of transactions each day without any hiccups or delays. Our uptime stats are among the finest in the business, and our support team is available around-the-clock to address any problems you might face. We provide a lot of items as part of a basic package, including a standard game library with excellent thumbnails, geographical limitations, movable cap prices, easy wallet connection, and more. Weekly updates to our platform ensure that you always have the newest features and upgrades included in your integration without additional costs.
+ 
+ 
+ In addition, you may obtain all additional services necessary to start your own online gambling enterprise, including hosting, banking, company incorporation, and gaming license.
+</body>
+
+<body>
+    Conatct Us:Mobile=+356 99654386 Email=gamersplus@gmail.com
+</body>
+
+<body>Games:</body>
+
+<script>
+    function img1(){
+        window.open("roulette.jpeg");
+    }
+    
+    function img2(){
+        window.open("slotmachine848910292-170667a.jpg");
+    }
+    
+    function img3(){
+        window.open("Black-Jack.png");
+    }
+    
+    function img4(){
+        window.open("How-to-Beat-Baccarat-with-Card-Counting.jpg");
+    }
+    
+    function img5(){
+        window.open("soliatire.png");
+    }
+    
+    function img6(){
+        window.open("pokergame.png");
+    }
+    </script>
+    
+    <nav>
+        <a onclick="img1()"><img src="roulette.jpeg"> Roulette   </a>
+        <a onclick="img2()"><img src="slotmachine848910292-170667a.jpg"> Slot Machine  </a>
+        <a onclick="img3()"><img src="Black-Jack.png"> Black Jack  </a>
+        <a onclick="img4()"><img src="How-to-Beat-Baccarat-with-Card-Counting.jpg"> Baccarat  </a>
+        <a onclick="img5()"><img src="soliatire.png"> Soliatire  </a>
+        <a onclick="img6()"><img src="pokergame.png"> Poker </a>
+       
+    </nav>
+    
+</html>
